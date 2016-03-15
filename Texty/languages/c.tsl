@@ -1,0 +1,25 @@
+{
+    "name" : "C",
+    "version" : "1.0.0",
+    "syntax" : [
+        {
+            "syntax_color" : "#00f",
+            "keywords" : [
+                "auto", "asm", "_Bool", "break", "case", "const", 
+                "continue", "char", "do", "default", "double", "else",
+                "enum", "extern", "float", "for", "goto", "int",
+                "if", "inline", "long", "return", "register", "restrict",
+                "static", "signed", "switch", "short", "struct", "sizeof",
+                "typedef", "union", "unsigned", "volatile", "void", "while"
+            ]
+        },
+        {
+            "syntax_color" : "#7f00ff",
+            "keywords" : [
+                "_Thread_local", "_Alignas", "_Alignof", 
+                "_Atomic", "_Complex", "_Generic",
+                "_Noreturn", "_Imaginary"
+            ]
+        }
+    ]
+}
