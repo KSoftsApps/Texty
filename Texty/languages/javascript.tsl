@@ -1,14 +1,39 @@
 {
-    "name" : "C++",
+    "name" : "Javascript",
     "version" : "1.0.0",
+    "extensions" : [
+        ".js"
+    ],
+    "comments" : {
+        "start" : "/*",
+        "end" : "*/",
+        "line" : "//"
+    },
     "syntax" : [
         {
+            "id" : "instructions",
             "syntax_color" : "#00f",
             "keywords" : [
-                "break", "case", "continue", "catch", "do", "default",
-                "else", "for", "function", "if", "in", "new", "prototype",
-                "return", "switch", "this", "try", "typeof", "var", 
-                "while", "with"
+                "continue", "do", "else", "for", "from", 
+                "goto", "if", "let",  "return", "switch", 
+                "throw", "throws", "try", "while", "with"
+            ]
+        },
+        {
+            "id" : "reserved",
+            "syntax_color" : "#00f",
+            "keywords" : [
+                "abstract", "boolean", "break", "byte", "case",
+                "catch", "char", "class", "const", 
+                "debugger", "default", "delete", "double",
+                "enum", "export", "extends", "final",
+                "finally", "float", "function", "var",
+                "implements", "import", "in", "instanceof", 
+                "int", "interface", "long", "native", 
+                "new", "of", "package", "private", "typeof", 
+                "protected", "public", "short", "static",
+                "super", "synchronized", "this", "transient",  
+                "void", "volatile", "true", "false", "prototype"
             ]
         }
     ]
