@@ -1,19 +1,38 @@
 {
     "name" : "C",
     "version" : "1.0.0",
+    "extensions" : [
+        "c"
+    ],
+    "comments" : {
+        "start" : "/*",
+        "end" : "*/",
+        "line" : "//"
+    },
     "syntax" : [
         {
+            "id" : "instructions",
             "syntax_color" : "#00f",
             "keywords" : [
-                "auto", "asm", "_Bool", "break", "case", "const", 
-                "continue", "char", "do", "default", "double", "else",
-                "enum", "extern", "float", "for", "goto", "int",
-                "if", "inline", "long", "return", "register", "restrict",
-                "static", "signed", "switch", "short", "struct", "sizeof",
-                "typedef", "union", "unsigned", "volatile", "void", "while"
+                "if", "else", "switch", "case", "default", "break", 
+                "goto", "return", "for", "while", "do", 
+                "continue", "typedef", "sizeof", "NULL"
             ]
         },
         {
+            "id" : "reserved",
+            "syntax_color" : "#00f",
+            "keywords" : [
+                "auto", "asm", "_Bool", "const", 
+                "char", "double",
+                "enum", "extern", "float", "int",
+                "inline", "long", "register", "restrict",
+                "static", "signed", "short", "struct",
+                "union", "unsigned", "volatile", "void"
+            ]
+        },
+        {
+            "id" : "special",
             "syntax_color" : "#7f00ff",
             "keywords" : [
                 "_Thread_local", "_Alignas", "_Alignof", 

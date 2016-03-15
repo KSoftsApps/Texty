@@ -1,22 +1,43 @@
 {
     "name" : "C++",
     "version" : "1.0.0",
+    "extensions" : [
+        "h", "hpp", "cpp"
+    ],
+    "comments" : {
+        "start" : "/*",
+        "end" : "*/",
+        "line" : "//"
+    },
     "syntax" : [
         {
+            "id" : "instructions",
             "syntax_color" : "#00f",
             "keywords" : [
-                "auto", "alignof", "alignas", "bool", "break", "case",
-                "const", "constexpr", "continue", "const_cast", "char16_t",
-                "char32_t", "char", "class", "catch", "do", "default", 
-                "double", "decltype", "delete", "dynamic_cast", "else", "enum",
-                "extern", "friend", "float", "for", "goto", "int", "if", 
-                "inline", "long", "mutable", "noexcept", "new", "nullptr", 
-                "namespace", "operator", "private", "protected", "public", 
-                "return", "reinterpret_cast", "register", "static", "signed", 
-                "static_cast", "switch", "short", "struct", "sizeof", 
-                "static_assert", "thread_local", "try", "throw", "typedef", "this", 
-                "template", "typename", "using", "union", "unsigned", 
-                "volatile", "virtual", "void", "while", "wchar_t"
+                "alignof", "and", "and_eq", "bitand", "bitor",
+                "catch", "compl", "const_cast", "continue", 
+                "default", "delete", "do", "dynamic_cast", "else",
+                "false", "for", "goto", "if", "namespace", "new", "not",
+                "not_eq", "nullptr", "operator", "or", "or_eq", 
+                "reinterpret_cast", "return", "sizeof", "static_assert",
+                "static_cast", "switch", "this", "throw", "true", "try",
+                "typedef", "typeid", "using", "while", "xor", "xor_eq", "NULL"
+            ]
+        },
+        {
+            "id" : "reserved",
+            "syntax_color" : "#00f",
+            "keywords" : [
+                "asm", "auto", "alignas", "bool", "break", "case",
+                "const", "constexpr", "char16_t",
+                "char32_t", "char", "class", 
+                "double", "decltype", "enum", "explicit", 
+                "export", "extern", "final", "friend", "float", 
+                "int", "inline", "long", "mutable", "noexcept",
+                "private", "protected", "public", "override",
+                "register", "static", "signed", "short", "struct", 
+                "thread_local", "template", "typename", "union", 
+                "unsigned", "volatile", "virtual", "void", "wchar_t"
             ]
         }
     ]
