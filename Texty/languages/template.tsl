@@ -1,0 +1,18 @@
+{
+    "name" : "language display name",
+    "version" : "1.0.0",
+    "syntax" : [
+        {
+            "syntax_color" : "hex color for the following keywords",
+            "keywords" : [
+                "keyword1", "keyword2", "keyword3"
+            ]
+        },
+        {
+            "syntax_color" : "another hex color for the following keywords",
+            "keywords" : [
+                "keyword4", "keyword5"
+            ]
+        }
+    ]
+}
