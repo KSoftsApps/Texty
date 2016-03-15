@@ -1,20 +1,34 @@
 {
-    "name" : "C++",
+    "name" : "Java",
     "version" : "1.0.0",
+    "extensions" : [
+        ".java"
+    ],
+    "comments" : {
+        "start" : "/*",
+        "end" : "*/",
+        "line" : "//"
+    },
     "syntax" : [
         {
+            "id" : "instructions",
             "syntax_color" : "#00f",
             "keywords" : [
-                "abstract", "assert", "bool", "break", "byte", 
-                "case", "continue", "char", "class", "catch",
-                "do", "default", "double", "else", "enum", 
-                "extends", "final", "finally", "false",
-                "float", "for", "int", "if", "interface", 
-                "import", "instanceof", "implements", "long", 
-                "native", "new", "null", "private", "protected", 
-                "public", "package", "return", "static", "strictfp",
-                "switch", "short", "sizeof", "synchronized", "super",
-                "try", "throw", "transient", "true", "volatile", "void", "while"
+                "if", "else", "switch", "case", "default", "break",
+                "return", "for", "while", "do", "continue", "new", 
+                "throw", "throws", "try", "catch", "finally"
+            ]
+        },
+        {
+            "id" : "reserved",
+            "syntax_color" : "#00f",
+            "keywords" : [
+                "assert", "instanceof", "this", "package", "transient",
+                "super", "extends", "implements", "import", "true", "false",
+                "null", "void", "char", "short", "int", "long", "double",
+                "float", "const", "static", "volatile", "byte", "boolean",
+                "class", "interface", "native", "private", "protected", 
+                "public", "final", "abstract", "synchronized", "enum"
             ]
         }
     ]
